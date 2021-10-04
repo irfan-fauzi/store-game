@@ -35,3 +35,9 @@ ul {
   width: 100%;
   background: #b1b1b1;
 }
+.hover {
+  cursor: pointer;
+}
+.hover:hover {
+  color: rgb(255, 123, 0);
+}
