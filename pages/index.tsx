@@ -40,7 +40,7 @@ const Home = () => {
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item my-auto">
-                            <a className="nav-link" href="#">Games</a>
+                            <a className="nav-link" href="#">Games 1</a>
                         </li>
                         <li className="nav-item my-auto">
                             <a className="nav-link" href="#">Rewards</a>
