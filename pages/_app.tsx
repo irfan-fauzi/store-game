@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import '../styles/homepage.css'
 import '../styles/utilities.css'
+import '../styles/detail.css'
 import type { AppProps } from 'next/app'
 
 

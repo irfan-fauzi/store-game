@@ -1,5 +1,12 @@
-import Image from 'next/image'
+import AOS from 'aos'
+import { useEffect } from 'react'
+import Link from 'next/link'
+
 const Home = () => {
+
+  useEffect(() => {
+    AOS.init()
+  },[])
 
   return (
     <>
@@ -248,7 +255,8 @@ const Home = () => {
             <div className="d-flex flex-row flex-lg-wrap overflow-setting justify-content-lg-between gap-lg-3 gap-4"
                 data-aos="fade-up">
                 <div className="featured-game-card position-relative">
-                    <a href="./src/detail.html">
+                  <Link href="/detail/4">
+                    <a>
                         <div className="blur-sharp">
                             <img src="/assets/img/Thumbnail-1.png" width="205" height="270" alt="" />
                         </div>
@@ -269,10 +277,11 @@ const Home = () => {
                             </div>
                         </div>
                     </a>
-
+                  </Link>
                 </div>
                 <div className="featured-game-card position-relative">
-                    <a href="./src/detail.html">
+                  <Link href="/detail/2">
+                    <a>
                         <div className="blur-sharp">
                             <img src="/assets/img/Thumbnail-2.png" width="205" height="270" alt="" />
                         </div>
@@ -293,10 +302,11 @@ const Home = () => {
                             </div>
                         </div>
                     </a>
-
+                  </Link>
                 </div>
                 <div className="featured-game-card position-relative">
-                    <a href="./src/detail.html">
+                  <Link href="/detail/3">
+                    <a>
                         <div className="blur-sharp">
                             <img src="/assets/img/Thumbnail-3.png" width="205" height="270" alt="" />
                         </div>
@@ -317,10 +327,11 @@ const Home = () => {
                             </div>
                         </div>
                     </a>
-
+                  </Link>
                 </div>
                 <div className="featured-game-card position-relative">
-                    <a href="./src/detail.html">
+                  <Link href="/detail/4">
+                    <a>
                         <div className="blur-sharp">
                             <img src="/assets/img/Thumbnail-4.png" width="205" height="270" alt="" />
                         </div>
@@ -341,10 +352,11 @@ const Home = () => {
                             </div>
                         </div>
                     </a>
-
+                  </Link>
                 </div>
                 <div className="featured-game-card position-relative">
-                    <a href="./src/detail.html">
+                  <Link href="/detail/5">
+                    <a>
                         <div className="blur-sharp">
                             <img src="/assets/img/Thumbnail-5.png" width="205" height="270" alt="" />
                         </div>
@@ -365,7 +377,7 @@ const Home = () => {
                             </div>
                         </div>
                     </a>
-
+                  </Link>
                 </div>
             </div>
         </div>
