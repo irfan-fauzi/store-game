@@ -53,9 +53,11 @@ const Home = () => {
                             <a className="nav-link" href="#">Global Rank</a>
                         </li>
                         <li className="nav-item my-auto">
+                            <Link href="/sign-in">                          
                             <a className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
-                                href="./src/sign-in.html" role="button">Sign
+                                role="button">Sign
                                 In</a>
+                            </Link>    
                         </li>
                     </ul>
                 </div>
