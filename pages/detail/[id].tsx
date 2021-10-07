@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 const DetailGame = () => {
   return (
@@ -67,7 +67,7 @@ const DetailGame = () => {
                 <div className="col-xl-3 col-lg-4 col-md-5 pb-30 pb-md-0 pe-md-25 text-md-start">
                     <div className="row align-items-center">
                         <div className="col-md-12 col-4">
-                            <img src="../assets/img/Thumbnail-3.png" width="280" height="380" className="img-fluid" alt="" />
+                            <img src="/assets/img/Thumbnail-3.png" width="280" height="380" className="img-fluid" alt="" />
                         </div>
                         
                         <div className="col-md-12 col-8 d-md-none d-block">
@@ -246,10 +246,10 @@ const DetailGame = () => {
                                 placeholder="Enter your Bank Account Name" />
                         </div>
                         <div className="d-sm-block d-flex flex-column w-100">
-                            <a href="./checkout.html" type="submit"
+                          <Link href="/checkout">
+                            <a type="submit"
                                 className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg">Continue</a>
-                            <button type="submit"
-                                className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg">Continue</button>
+                          </Link>  
                         </div>
                     </form>
                 </div>
