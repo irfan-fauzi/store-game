@@ -9,7 +9,10 @@ import '../styles/sign-up.css'
 import '../styles/sign-up-photo.css'
 import '../styles/sign-up-photo-success.css'
 import '../styles/sign-up-success.css'
-
+import '../styles/sidebar.css'
+import '../styles/overview.css'
+import '../styles/transactions.css'
+import '../styles/edit-profile.css'
 import type { AppProps } from 'next/app'
 
 

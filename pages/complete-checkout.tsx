@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 
 const CompleteCheckout = () => {
   return (
@@ -129,9 +129,11 @@ const CompleteCheckout = () => {
                     WhatsApp</p>
             </div>
             <div className="button-group d-flex flex-column mx-auto">
+              <Link href="/member/overview">
                 <a className="btn btn-dashboard fw-medium text-lg text-white rounded-pill mb-16"
-                    href="../member/overview.html" role="button">My
+                    role="button">My
                     Dashboard</a>
+              </Link>      
                 <a className="btn btn-whatsapp fw-medium text-lg color-palette-1 rounded-pill" href="#"
                     role="button">WhatsApp
                     ke Admin</a>
