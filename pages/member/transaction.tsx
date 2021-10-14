@@ -1,5 +1,6 @@
-import React from 'react'
+import Link from 'next/link'
 import { Sidebar } from '../../components'
+
 
 const Transaction = () => {
   return (
@@ -66,8 +67,9 @@ const Transaction = () => {
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="../member/transactions-detail.html"
-                                            className="btn btn-status rounded-pill text-sm">Details</a>
+                                      <Link href="/member/transaction-detail">
+                                        <a className="btn btn-status rounded-pill text-sm">Details</a>
+                                        </Link>    
                                     </td>
                                 </tr>
                                 <tr data-category="success" className="align-middle">
@@ -94,8 +96,9 @@ const Transaction = () => {
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="../member/transactions-detail.html"
-                                            className="btn btn-status rounded-pill text-sm">Details</a>
+                                      <Link href="/member/transaction-detail">
+                                        <a className="btn btn-status rounded-pill text-sm">Details</a>
+                                      </Link>    
                                     </td>
                                 </tr>
                                 <tr data-category="failed" className="align-middle">
@@ -122,8 +125,9 @@ const Transaction = () => {
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="../member/transactions-detail.html"
-                                            className="btn btn-status rounded-pill text-sm">Details</a>
+                                      <Link href="/member/transaction-detail">
+                                        <a className="btn btn-status rounded-pill text-sm">Details</a>
+                                      </Link>    
                                     </td>
                                 </tr>
                                 <tr data-category="pending" className="align-middle">
@@ -150,8 +154,9 @@ const Transaction = () => {
                                         </div>
                                     </td>
                                     <td>
-                                        <a href="../member/transactions-detail.html"
-                                            className="btn btn-status rounded-pill text-sm">Details</a>
+                                      <Link href="/member/transaction-detail">
+                                        <a className="btn btn-status rounded-pill text-sm">Details</a>
+                                      </Link>      
                                     </td>
                                 </tr>
                             </tbody>
